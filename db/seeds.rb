@@ -1,3 +1,8 @@
+Voter.destroy_all
+Vote.destroy_all
+Candidate.destroy_all
+
+
 v1 = Voter.create(name: "bob")
 
 c1 = Candidate.create(name: "bill")
